@@ -1,0 +1,289 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+section {
+    margin: 0;
+    background-color: white;
+}
+
+.s1 {
+    background: #1c1d25;
+    height: 100vh;
+    color: #ffff;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    bottom: 8;
+    left: 0;
+    display: flex;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.about li {
+    display: contents;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.about .fav-exp {
+    font-size: 25px;
+}
+
+.about hr {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.s1-area {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.s1-1 {
+    margin-left: 45px;
+    margin-bottom: 180px;
+}
+
+.button {
+    width: 200px;
+    height: 53px;
+    background: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.s1-area .s1-1 .button:hover {
+    background-color: #ef744b;
+}
+
+.s1-area .s1-1 .button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.social {
+    padding-bottom: 150px;
+    margin: 20px;
+}
+
+.github {
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+}
+
+.mypic {
+    width: 280px;
+    border-radius: 150px;
+}
+
+.pict {
+    display: flex;
+    align-items: center;
+}
+
+.hobbie {
+    width: 300px;
+    height: 500px;
+    box-shadow: 10px 10px 6px rgb(192, 191, 191);
+    border: solid black 1px;
+    margin: 10px;
+}
+
+.hobbie-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hobbie-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.hobbies-info {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin: 65px 20px 8px 20px;
+}
+
+ .hobbies-link {
+    text-decoration: none;
+    color: #ef744b;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+
+ .contact-form {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+ }
+
+ .contact-form form {
+    width: 100%;
+ }
+
+ .contact-form .form-control {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .form-control .edit-form {
+    width: 47%;
+    font-size: 13px;
+    padding: 5px;
+ }
+
+.form-control .edit-form:focus, .contact-form textarea:focus {
+    outline: 0;
+    background-color: #ef744b;
+}
+
+.contact-form textarea {
+    width: 100%;
+    border: none;
+    padding: 0;
+    resize: none;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+form button {
+    width: 100%;
+    background-color: #ef744b;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.social2 {
+    display: flex;
+    padding: 10px;
+    padding-left: 170px;
+    padding-right: 150px;
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul {
+        display: none;
+        background-color: #353746;
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #353746;
+    }
+    .logo {
+        display: none;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-form .form-control {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control .edit-form {
+        width: 100%;
+        margin-top: 3px;
+    }
+}
